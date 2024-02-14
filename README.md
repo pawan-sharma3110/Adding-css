@@ -1,2 +1,3 @@
-# Adding-css
-Adding CSS on 02 HTML basic fundamentes
+# 02-HTML-Fundamentals
+Play with HTML ELEMENTS
+Adding with Css
