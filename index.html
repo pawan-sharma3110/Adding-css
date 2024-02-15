@@ -9,32 +9,36 @@
 <link rel="stylesheet" href="/style.css">
 
 <body>
-    <header class="main-header">
-        <h1>📘 The Code Magazine</h1>
-        <nav>
-            <a href="/blog.html">Blog</a>
-            <a href="#">Challenges</a>
-            <a href="">Flexbox</a>
-            <a href="#">CSS Grid</a>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="main-header">
+            <h1>📘 The Code Magazine</h1>
+            <nav>
+                <a href="/blog.html">Blog</a>
+                <a href="#">Challenges</a>
+                <a href="">Flexbox</a>
+                <a href="#">CSS Grid</a>
+            </nav>
+        </header>
+   
     <article>
-        <header>
+        <header class="post-header">
             <h2>The Basic Language of the Web: HTML</h2>
             <img src="/images/laura-jones.jpg" alt="Laura Jones image" width="50px">
             <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-            <img src="/images/post-img.jpg" alt="" width="500px">
+            <img class="select-img" src="/images/post-img.jpg" alt="" width="500px">
         </header>
-        <p>All modern websites and web applications are built using three <em>fundamental </em>technologies: HTML, CSS
+        <p>All modern websites and web applications are built using three <em>fundamental </em>technologies: HTML,
+            CSS
             and
             JavaScript. These are the languages of the web.</p>
-        <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
+        <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.
+        </p>
         <h3>What is HTML?</h3>
         <p>HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
             <strong>l</strong>anguage.
             It's a markup language that web developers
-            use to structure and describe the content of a webpage (not a 
-                 programming language).
+            use to structure and describe the content of a webpage (not a
+            programming language).
         </p>
         <p>HTML consists of elements that describe different types of content: paragraphs, links, headings, images,
             video,
@@ -74,8 +78,9 @@
         </ul>
     </aside>
     <footer>
-        <p id="Copyright">Copyright © 2027 by The Code Magazine.</p>
+        <p id="Copyright">Copyright &copy; 2027 by The Code Magazine.</p>
     </footer>
+</div>
 </body>
 
 </html>
