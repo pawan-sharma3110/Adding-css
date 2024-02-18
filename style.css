@@ -2,6 +2,7 @@ body {
     color: #444;
     font-family: sans-serif;
     padding: 20px;
+    position: relative;
 }
 
 h1,
@@ -39,6 +40,7 @@ h4 {
 }
 
 .container {
+    position: relative;
     width: 800px;
     margin: 0 auto;
 }
@@ -48,12 +50,14 @@ h4 {
     height: 80px;
     padding: 20px 40px;
     margin-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 nav a:link {
     display: inline-block;
     margin-right: 30px;
     margin-top: 10px;
+
 }
 
 nav a:link:last-child {
@@ -77,7 +81,6 @@ li {
 }
 
 aside {
-
     background-color: #f7f7f7;
     width: 500px;
     border-top: 5px solid #1098ac;
@@ -137,4 +140,42 @@ a:hover {
 a:active {
     background-color: black;
     font-style: italic;
+}
+
+.like {
+    font-size: 22px;
+    padding: 20px;
+    position: absolute;
+    color: red;
+    cursor: pointer;
+    right: 50px;
+    bottom: 50px;
+}
+
+h1::first-letter {
+    font-style: italic;
+    margin-right: 10px;
+}
+
+h3+p::first-line {
+    /* color: red; */
+}
+
+h2 {
+
+    position: relative;
+
+}
+
+h2::after {
+    content: "TOP";
+    color: black;
+    background-color: #ffe70e;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+   right: -25px;
 }
